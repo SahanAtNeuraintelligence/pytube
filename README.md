@@ -91,3 +91,9 @@ You can also do the same for a playlist:
 ```bash
 $ pytube https://www.youtube.com/playlist?list=PLS1QulWo1RIaJECMeUT4LFwJ-ghgoSH6n
 ```
+
+### Update From the Original Repo
+1. In your local clone of your forked repository, add the original repository as a remote by running git remote add upstream https://github.com/pytube/pytube.git
+2. Fetch all the branches from that upstream repository by running git fetch upstream.
+3. Make sure that you’re on your master branch by running git checkout master.
+4. Merge or rebase your local branch with the changes from the original repository by running git merge upstream/master or git rebase upstream/master.
